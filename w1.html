@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>student details</title>
+        <style>
+            table{
+                background-color: lightpink;
+                border-width: 3px;
+            }
+        </style>
+        <script type="text/javascript" src="formvalidation.js">
+           
+        </script>
+    </head>
+    <body>
+        <form  action="#"  name="studentdetails" onsubmit="return(formvalidation());">
+        <table  >
+            <tr>
+                <td><h1>STUDENT DETAILS</h1></td>
+            </tr>
+            <tr>
+                <td>first name</td>
+               <td> <input type="text" name="fname" id="fname"></td>
+            </tr>
+            <tr>
+                <td>last name</td>
+                <td><input type="text" name="lname" id="lname"></td>
+            </tr>
+            <tr>
+                <td>father name</td>
+                <td><input type="text" name="fathername" id="fathername"></td>
+            </tr>
+            <tr>
+                <td> mother name</td>
+                <td><input type="text" name="mname" id="mname"></td>
+            </tr>
+            <tr>
+                <td>date of birth</td>
+                <td><input type="date" name="date of birth" id="dob"></td>
+            </tr>
+            <tr>
+                <td>Email id</td>
+                <td><input type="text" name="email" id="eid"></td>
+            </tr>
+            <tr>
+                <td>mobile number</td>
+                <td><input type="text" name="mnumber" id="mbno"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="male" id="male">male
+                    <input type="radio" name="female" id="female"> female</td>
+            </tr>
+            <tr>
+                <td>state</td>
+                <td><select name="state" id="state">
+                    <option value=""></option>
+                    <option value="andra pradesh" name="ap">andra pradesh</option>
+                    <option value="jammu and kashmir" name="j&k">jammu kashmir</option>
+                    <option value="panjab" name="panjab">panjab</option>
+                    <option value="himachal pradesh" name="hp">himachal pradesh</option>
+                    <option value="uttarakhand" name="uk">uttarakhand</option>
+                    <option value="haryana" name="haryana">haryana</option>
+                    <option value="rajasthan" name="rj">rajasthan</option>
+                    <option value="uttarpradesh" name="uk">uttarpradesh</option>
+                    <option value="bhihar" name="bhihar">bhihar</option>
+                    <option value="jharkhand" name="jarkhand">jarkhand</option>
+                    <option value="west bengal" name="wb">west bengal</option>
+                    <option value="chhasttisgarh" name="ch">chhasttisgarh</option>
+                    <option value="odisha" name="odisha">odisha</option>
+                    <option value="madhya pradesh" name="md">madhya pradesh</option>
+                    <option value="gujarat" name="gujarat">gujarat</option>
+                    <option value="maharashtra" name="mh">maharashtra</option>
+                    <option value="telangana" name="tl">telangana</option>
+                    <option value="karnataka" name="knt">karnataka</option>
+                    <option value="tamil nadu" name="tm">tamil nadu</option>
+                    <option value="kerala" name="kerala">kerala</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>district</td>
+                <td>
+                    <select name="district" id="district">
+                        <option value=""></option>
+                        <option value="kadapa" name="kadapa">kadapa</option>
+                        <option value="chittoor" name="chittor">chittoor</option>
+                        <option value="kurnool" name="kurnool">kurnool</option>
+                        <option value="nellore" name="nellore">nellore</option>
+                        <option value="anathapur" name="ananthapur">ananthapur</option>
+                        <option value="prakasam" name="prakasam">prakasam</option>
+                        <option value="guntur" name="guntur">guntur</option>
+                        <option value="krishna" name="krishna">krishna</option>
+                        <option value="east godavari" name="eg">east godavari</option>
+                        <option value="west godavari" name="wg">west godavari</option>
+                        <option value="vishakapatnam" name="vk">vishakapatnam</option>
+                        <option value="vizayanagaram" name="vizayanagaram">vizayanagaram</option>
+                        <option value="srikakulam" name="srikakulam">srikakulam</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>pincode</td>
+                <td> <input type="text" name="oincode" id="pncode"></td>
+            </tr>
+            <tr>
+                <td id="address">address</td>
+                <td><textarea rows="5" cols="22"></textarea></td>
+            </tr><br><br>
+            <tr>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr>
+                 <br><br><td>  <input type="submit" value="submit" onclick="formvalidation()"></td>
+                 
+            </tr>
+        </table></form>
+    </body>
